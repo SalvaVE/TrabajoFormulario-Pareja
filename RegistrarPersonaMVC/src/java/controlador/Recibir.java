@@ -39,7 +39,7 @@ public class Recibir extends HttpServlet {
           request.getRequestDispatcher("noexito.jsp").forward(request, response);
       }    
     }
-
+//boton recibir
     @Override
     public String getServletInfo() {
         return "Short description";
