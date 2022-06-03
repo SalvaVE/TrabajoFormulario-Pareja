@@ -13,7 +13,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        
+        // index principal
         <h1>Registrar Categoria</h1>
         <form action="registrarcategoria.do" method="POST">
             ID: <input type="text" name="txtId" value="" /><br><br>
@@ -43,3 +43,4 @@
         </form>
     </body>
 </html>
+
