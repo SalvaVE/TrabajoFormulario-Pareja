@@ -40,7 +40,7 @@ public class Modificar extends HttpServlet {
           request.getRequestDispatcher("noModificar.jsp").forward(request, response);
       }    
     }
-
+//boton modificar
     @Override
     public String getServletInfo() {
         return "Short description";
